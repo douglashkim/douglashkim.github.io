@@ -1,7 +1,35 @@
 body {
-	background-color: #4682B4;
+	font-family: Helvetica, sans-serif;
+	text-align: left;
+	/*background-image: url("images/yosemite_sunset.jpg");*/
+	/*background-position: top;*/
 }
 
-h1, p {
-	color: orange;
+
+h1 {
+	font-weight: 300;
+	font-size: 40px;
+	color: #777777;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+p {
+	color: #777777;
+}
+
+#slogan {
+	font-family: "courier new", monospace;
+	font-style: italic;
+	font-size: 23px;
+	color: #00AEEF;
+	text-align: center;
+}
+
+ul {
+	color: #777777;
+}
+
+a {
+	text-decoration: none;
 }
