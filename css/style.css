@@ -1,39 +1,116 @@
+
+
 body {
-	font-family: Helvetica, sans-serif;
-	text-align: left;
-	margin: 5px 20px 5px 20px;
-	/*background-image: url("../images/yosemite_sunset.jpg");*/
-	/*background-position: top;*/
+	font-family: 'Roboto', sans-serif; font-weight: 400;
+	line-height: 1.5em;
+
 }
 
 
 h1 {
-	/*font-family: 'Shadows Into Light Two', cursive;*/
-	font-family: 'Dhurjati', sans-serif;
-	/*font-weight: 300;*/
-	font-size: 60px;
-	color: #777777;
-	text-align: center;
-	/*text-transform: lowercase;*/
+
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif; font-weight: 700;
+	text-transform: uppercase;
+
 }
 
 p {
-	color: #777777;
+
 }
 
-#slogan {
-	font-family: "courier new", monospace;
-	font-style: italic;
-	font-size: 23px;
-	color: #00AEEF;
-	text-align: center;
-}
-
-ul {
-	color: #777777;
-	line-height: 150%;
+img {
+	display: block;
+	/*margin: 0 auto;*/
 }
 
 a {
-	text-decoration: none;
+
 }
+
+#logowrapper {
+	float: left;
+}
+
+
+nav {
+	display: inline-block;
+	font-size: 14pt;
+	font-family: 'Roboto', sans-serif; font-weight: 300;
+	text-decoration: none;
+	text-transform: uppercase;
+	/*color: #404040;*/
+	margin-left: 394px;
+	margin-top: 30px;
+
+}
+
+nav a {
+	text-decoration: none;
+	/*background-color: #a7f9c5;*/
+	color: #404040;
+	padding: 20px;
+	display: inline-block;
+
+}
+
+nav a:hover {
+	background-color: #d8e1b6;
+}
+
+img {
+
+}
+
+
+div img {
+	float: left;
+	padding: 0px 20px 10px 0;
+}
+
+.mainwrapper {
+	margin: 10px;
+
+}
+
+.column {
+	float: left;
+	width: 390px;
+	padding: 10px;
+}
+
+#about {
+}
+
+#leftthumbnails {
+
+}
+
+#rightthumbnails {
+}
+
+footer {
+	padding: 1em;
+	clear: both;
+	/*background-color: #ee3;*/
+	/*float: left;*/
+}
+
+#socialicons {
+	margin-left: 990px;
+	margin-top: -28px;
+	float: left;
+	display: inline-block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
