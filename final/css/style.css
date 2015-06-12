@@ -1,0 +1,251 @@
+/*----------this is based on mobile first design ----------*/
+
+body {
+	font-family: 'Roboto', sans-serif; font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #333333;
+}
+
+/*----------navigation bar----------*/
+
+nav {
+	background-color: #6c7a89;
+	width: 100%;
+	position: fixed;
+	top:0;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: 300;
+	color: white;
+	padding: .3em;
+	display: block;
+}
+
+#innernav {
+	display: none;
+}
+
+#mobile {
+	display: block;
+	font-size: 2.5em;
+}
+
+nav:hover #innernav {
+	display: block;
+	/*border-style: inset;*/
+	border-width: 1px;
+}
+
+nav:hover #mobile {
+	display: none;
+}
+
+h1, h2 {
+	font-family: 'Josefin Slab', serif; font-weight: 400; 
+	line-height: 1.2em;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+	padding-top: 1em;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 2em;
+	padding-bottom: 1em;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5em;
+}
+
+#homepage-motto {
+	/*background-color: #f64747;*/
+	/*padding: 3em;*/
+}
+
+#camera {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1.5em;
+}
+
+#motto {
+	/*background-color: #87d37c;*/
+	font-size: 1.5em;
+	color: #f64747;
+	padding-top: 1em;
+	padding-bottom: 3em;
+	text-align: center;
+	font-weight: 300;
+}
+
+#thankyou {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 7em;
+	padding-bottom: 2em;
+}
+
+.narrative {
+	margin: 2em 5em;
+}
+
+section {
+	padding-top: 3em;
+
+}
+
+section img {
+	width: 98%;
+	display: block;
+	margin: 1%;
+}
+
+footer {
+	background-color: #6c7a89;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Roboto', sans-serif; font-weight: 300;
+	font-size:0.8em;
+	padding: 0.7em; 
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+}
+
+/*----------contact form style----------*/
+
+#contact-area {
+	width: 100%;
+	margin-top: 5em;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 0.5em;
+	width: 60%;
+	font-size: 1em;
+/*	margin-top: 0.5em;*/
+	margin-bottom: 0.5em;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 10em;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 10em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:2em;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 1em;
+	width: 20%;
+	padding-top: 0.5em;
+}
+
+
+
+/*----------media query for large screen----------*/
+
+@media only screen and (min-width: 768px) {
+	body {
+		font-size: 18px;
+	}
+
+	section {
+		margin: 0.5%;
+		padding-top: 2.5em;
+	}
+
+	section img {
+		width: 49%;
+		float: left;
+		margin: 0.5%;
+	}
+
+	footer {
+		clear: both;
+	}
+
+	#mobile {
+		display: none;
+	}
+
+	#innernav {
+		display: block;		
+	}
+
+	nav {
+		background-color: #6c7a89;
+		width: 100%;
+		height: 2.5em;
+		position: fixed;
+		top: 0;
+		text-align: center;
+	}
+
+	nav a {
+		font-weight: 300;
+		width: 16.667%;
+		float: left;
+		padding: 0.5em 0;
+		/*position: fixed;*/
+		-o-transition:.5s;
+		-ms-transition:.5s;
+		-moz-transition:.5s;
+		-webkit-transition:.5s;
+		transition:.5s;
+	}
+
+	nav a:hover {
+		background-color: #abb7b7;
+	}
+
+	#camera {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 2em;
+	}
+
+	.wrapper {
+		padding-top: 1.5em;
+		padding-bottom: 5em;
+	}
+
+	.narrative {
+		width: 70%;
+		margin:0 auto;
+		padding: 1em;
+	}
+
+}
+
