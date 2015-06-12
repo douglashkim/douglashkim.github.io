@@ -175,7 +175,7 @@ label {
 
 /*----------media query for large screen----------*/
 
-@media only screen and (min-device-width: 320px) {
+@media only screen and (min-width: 768px) {
 	body {
 		font-size: 18px;
 	}
